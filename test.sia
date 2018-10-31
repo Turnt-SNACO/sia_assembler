@@ -1,0 +1,17 @@
+add r1 r2 r3
+subtract r1 r2 r3
+multiply r1 r2 r3
+divide r1 r2 r3
+and r1 r2 r3
+or r1 r2 r3
+leftshift r1 0
+rightshift r1 31
+addimmediate r1 127
+addimmediate r1 -128
+branchifequal r1 r2 524286
+branchifless r1 r2 524286
+jump 268435455
+iterateover r1 255 65535
+load r1 r2 -8
+store r1 r2 7
+interrupt 8765
